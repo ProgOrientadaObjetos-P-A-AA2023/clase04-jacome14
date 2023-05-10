@@ -13,6 +13,7 @@ public class Ejecutor {
     public static void main(String[] args) {
         // Crear el objeto Usuario
         Usuario usuario = new Usuario();
+        System.out.println(usuario.obtenerApellido());
         
         usuario.establecerNombre("María");
         usuario.establecerApellido("Paute");
